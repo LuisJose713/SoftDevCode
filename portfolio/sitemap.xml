@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://luis-jose-portfolio.vercel.app/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://luis-jose-portfolio.vercel.app/cv.html</loc><changefreq>quarterly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://luis-jose-portfolio.vercel.app/cv-en.html</loc><changefreq>quarterly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://luisjose713.github.io/SoftDevCode/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://luisjose713.github.io/SoftDevCode/cv.html</loc><changefreq>quarterly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://luisjose713.github.io/SoftDevCode/cv-en.html</loc><changefreq>quarterly</changefreq><priority>0.6</priority></url>
 </urlset>
