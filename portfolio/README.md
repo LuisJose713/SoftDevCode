@@ -24,7 +24,11 @@ Y visitar `http://localhost:8000/portfolio/`.
 
 ## Despliegue
 
-Puedes usar GitHub Pages con el directorio `/portfolio/` servido desde la raíz del repositorio, o conectar el repositorio con Vercel seleccionando `portfolio` como **Root Directory**.
+El despliegue principal usa GitHub Pages con el workflow `.github/workflows/deploy-portfolio-pages.yml`, que publica el directorio `portfolio/` al enviar cambios a `main` (también admite ejecución manual).
+
+Para activar el sitio una sola vez: entra en **Settings → Pages** del repositorio, selecciona **Source: GitHub Actions** y guarda la configuración. Después ejecuta el workflow desde **Actions → Deploy portfolio to GitHub Pages → Run workflow** si no se publica automáticamente.
+
+URL oficial: **https://luisjose713.github.io/SoftDevCode/**.
 
 ## Contenido y privacidad
 
