@@ -54,6 +54,7 @@
       else if(el.dataset.esText!==undefined)el.textContent=el.dataset.esText;
     });
     if(toggle){toggle.innerHTML=(lang==='es'?'EN':'ES')+' <span aria-hidden="true">↗</span>';toggle.setAttribute('aria-label',lang==='es'?'Switch to English':'Cambiar a español');}
+    document.querySelectorAll('a[href="./cv.html"], a[href="./cv-en.html"]').forEach(a=>a.setAttribute('href',lang==='en'?'./cv-en.html':'./cv.html'));
     document.title=lang==='es'?'Luis José Deluquez — Desarrollador Full-Stack':'Luis José Deluquez — Full-Stack Developer';
     try{localStorage.setItem('luis-portfolio-lang',lang)}catch(e){}
   }
